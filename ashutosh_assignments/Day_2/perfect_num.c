@@ -24,6 +24,6 @@ else
 	printf("Number is Not perfect number");
 }
 
-printf("%d",sum);
+// printf("%d",sum);
 return 0;
 }

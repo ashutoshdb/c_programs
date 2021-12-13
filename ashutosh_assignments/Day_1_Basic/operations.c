@@ -8,7 +8,7 @@ scanf("%d",&i);
 printf("Enter the value of second number: ");
 scanf("%d",&j);
 
-printf("sum of both the numbers:,%d \n", i+j);
+printf("sum of both the numbers: %d \n", i+j);
 printf("subtraction of both the numbers: %d \n:",i-j);
 printf("multiplication of both the numbers: %d\n", i*j);
 printf("division of both the numbers: %d\n", i/j);

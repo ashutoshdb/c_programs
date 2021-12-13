@@ -2,7 +2,7 @@
 int main()
 {
 char i;
-
+while(1){
 printf("Enter the value");
 scanf("%c",&i);
 
@@ -13,7 +13,7 @@ else if(i>=65 && i <=90)
 else if(i>=48 && i<=57)
 	printf("value is digit \n");
 else if (i ==32)
-	printf("Value is whitespace\n");
-
+	printf("Value is whitespacae\n");
+}
 return 0;
 }
