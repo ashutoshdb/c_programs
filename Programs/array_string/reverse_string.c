@@ -19,9 +19,5 @@ int main(int argc, char const *argv[])
         string[len - i - 1] = temp;  
     }
     puts(string);
-    
-
-
-
 return 0;
 }

@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
     gets(string);
     for (int i = 0; string[i]  !='\0'; i++)
     {
-        string[i] = string[i]- 32;
+        string[i] = string[i] - ('a'-'A');
         // printf("%d",string[i]);
     }
     puts(string);

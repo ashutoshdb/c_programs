@@ -21,7 +21,7 @@ int main(int argc, char const *argv[])
     else if(num>=48 && num<=57){
         printf("Char is digit!!");
     }
-    else if(num==32 || num==9 || num==10){
+    else if(num== ' ' || num==9 || num==10){
         printf("Char is whitespace!!");
     }
     else{
